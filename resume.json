@@ -1,0 +1,141 @@
+{
+  "basics": {
+    "name": "Quam Sodji",
+    "label": "Systems Administrator",
+    "email": "qsodji@gmail.com",
+    "phone": "(912) 562-2811",
+    "website": "https://jumpt.wordpress.com",
+    "summary": "",
+    "location": {
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "",
+        "url": "https://linkedin.com/in/quamsodji"
+      },
+      {
+        "network": "Github",
+        "username": "",
+        "url": "https://github.com/killahquam"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "GREE International Inc",
+      "position": "Systems Administrator",
+      "website": "http://corp.gree.net/global",
+      "startDate": "2014-08-18",
+      "summary": "Redesigned and deployed client management solution company wide",
+      "highlights": [
+        "Development of Automation tools for streamlining on boarding",
+        "Client Management and configuration via Casper Suite",
+        "Client Security and Single Sign-On integration (Okta)",
+        "Administration of Multi Factor Authentication (Duo Security)"
+      ]
+    },
+    {
+      "company": "Avenues: The World School",
+      "position": "Systems Engineer",
+      "website": "https://avenues.org",
+      "startDate": "2012-06-12",
+      "endDate": "2014-07-08",
+      "summary": "Lead the design and construction of the infrastructure for a multi campuses",
+      "highlights": [
+        "Development of wireless infrastructure",
+        "Implementation of a Find Me print system with badging",
+        "Open Directory Management",
+        "Server virtualization"
+      ]
+    },
+    {
+      "company": "Greenwich Academy",
+      "position": "Systems Engineer",
+      "website": "https://greenwichacademy.org",
+      "startDate": "2007-06-07",
+      "endDate": "2012-06-11",
+      "summary": "",
+      "highlights": [
+        "Development of wireless infrastructure via Meraki Access points",
+        "Implementation of Desaster recovery after flood",
+        "Open Directory Management"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Pace University",
+      "area": "Information Technology",
+      "studyType": "Master",
+      "startDate": "2006-09-08",
+      "endDate": "2008-05-15",
+      "gpa": "3.92 GPA",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Client Management",
+      "level": "Master",
+      "keywords": [
+        "Casper",
+        "Munki",
+        "MDM",
+        "Deploystudio"
+      ]
+    },
+    {
+      "name": "Security",
+      "level":  "Master",
+      "keywords": [
+        "Nessus",
+        "osquery"
+      ]
+    },
+    {
+      "name": "Networking",
+      "level":  "Master",
+      "keywords": [
+        "Meraki",
+        "DNS",
+        "VLAN"
+      ]
+    },
+    {
+      "name": "Data Center",
+      "level":  "Intermediate",
+      "keywords": [
+        "VMware",
+        "Nimble"
+      ]
+    },
+
+    {
+      "name": "DevOps",
+      "level": "Intermediate",
+      "keywords": [
+        "Python",
+        "Bash",
+        "Puppet",
+        "Docker",
+        "Datadog",
+        "Jenkins",
+        "pagerDuty"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "French",
+      "fluency":  "Native speaker"
+    }
+  ]
+}
