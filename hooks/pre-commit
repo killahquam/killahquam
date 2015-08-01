@@ -1,0 +1,23 @@
+#!/bin/bash
+#
+# Compiles a JSON Resume to HTML before commit
+# Output file is index.html for GitHub Pages support
+# Override $RESUME_THEME to desired JSON Resume theme
+
+RESUME_THEME=${RESUME_THEME:-elegant}
+SOURCE_FILE=${OUTPUT_FILE:-resume.json}
+OUTPUT_FILE=${OUTPUT_FILE:-index.html}
+
+# Don't run if resume.json hasn't changed
+if ! $(git diff --cached --name-only | grep --quiet $SOURCE_FILE); then
+  exit 0
+fi
+
+# Compile
+resume export --theme $RESUME_THEME $OUTPUT_FILE
+
+# Add the HTML to the commit
+git add -f $OUTPUT_FILE
+
+# We're done!
+exit 0
