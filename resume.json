@@ -33,7 +33,7 @@
       "highlights": [
         "Development of Automation tools for streamlining on boarding",
         "Client Management and configuration via Casper Suite",
-        "Client Security and Single Sign-On integration (Okta)",
+        "Single Sign-On integration (Okta)",
         "Administration of Multi Factor Authentication (Duo Security)"
       ]
     },
