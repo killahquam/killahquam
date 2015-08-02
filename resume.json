@@ -31,7 +31,7 @@
       "startDate": "2014-08-18",
       "summary": "Redesigned and deployed client management solution company wide",
       "highlights": [
-        "Development of Automation tools for streamlining on boarding",
+        "Automation tools for streamlining on boarding",
         "Client Management and configuration via Casper Suite",
         "Single Sign-On integration (Okta)",
         "Administration of Multi Factor Authentication (Duo Security)"
@@ -43,12 +43,12 @@
       "website": "https://avenues.org",
       "startDate": "2012-06-12",
       "endDate": "2014-07-08",
-      "summary": "Lead the design and construction of the infrastructure for a multi campuses",
+      "summary": "Lead the design and construction of the infrastructure for multiple campuses",
       "highlights": [
-        "Development of wireless infrastructure",
+        "Deployment of wireless infrastructure",
         "Implementation of a Find Me print system with badging",
-        "Open Directory Management",
-        "Server virtualization"
+        "Open Directory Management via OS X Server",
+        "Server virtualization via VMware"
       ]
     },
     {
@@ -57,11 +57,11 @@
       "website": "https://greenwichacademy.org",
       "startDate": "2007-06-07",
       "endDate": "2012-06-11",
-      "summary": "",
+      "summary": "Introduced client management and cloud services",
       "highlights": [
-        "Development of wireless infrastructure via Meraki Access points",
-        "Implementation of Desaster recovery after flood",
-        "Open Directory Management"
+        "Wireless infrastructure via Meraki Access points",
+        "Desaster recovery after flood for entire infrastructure",
+        "Open Directory Management via OS X Server"
       ]
     }
   ],
@@ -109,7 +109,8 @@
       "level":  "Intermediate",
       "keywords": [
         "VMware",
-        "Nimble"
+        "Nimble",
+        "Synology"
       ]
     },
 
