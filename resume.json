@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Quam Sodji",
-    "label": "Systems Administrator",
+    "label": "Corporate IT Systems Administrator",
     "email": "qsodji@gmail.com",
     "phone": "(917) 562-2811",
     "website": "https://jumpt.wordpress.com",
@@ -26,15 +26,20 @@
   "work": [
     {
       "company": "GREE International Inc",
-      "position": "Systems Administrator",
+      "position": "Corporate IT Systems Administrator",
       "website": "http://corp.gree.net/global",
       "startDate": "2014-08-18",
-      "summary": "Redesigned and deployed client management solution company wide",
+      "summary": "Retooling of the client management stack (OS X and Windows) with Casper and PDQ, 350 computers",
       "highlights": [
-        "Automation tools for streamlining on boarding",
-        "Client Management and configuration via Casper Suite",
-        "Single Sign-On integration (Okta)",
-        "Administration of Multi Factor Authentication (Duo Security)"
+        "Complete automation of the imaging process using BASH and python on Deploystudio",
+        "Full Disk Encryption enforcement and management including FileVault recovery key escrow",
+        "OS lifecycle management including automated version upgrade and weekly updates enforcement",
+        "Vulnerability and malware detection using signatures and process scanning, remediation",
+        "Software deployment and updating using AutoPkg and Casper",
+        "Sophos anti-virus management and deployment",
+        "Introduction and administration of Apple Global Service Exchange and Device Enrollment Program",
+        "Administration of Duo Multi Factor Authentication, Okta Single Sign-On",
+        "Third tier escalation support for all client matters"
       ]
     },
     {
@@ -45,10 +50,12 @@
       "endDate": "2014-07-08",
       "summary": "Lead the design and construction of the infrastructure for multiple campuses",
       "highlights": [
-        "Deployment of wireless infrastructure",
-        "Implementation of a Find Me print system with badging",
+        "Level 3 Support for End Users",
+        "Management of IT personnel (repairs, AV, helpdesk)",
+        "Deployment of wireless infrastructure for 10 floors with different VLANS",
+        "Mac clients and Server Management (1000+ computers)",
         "Open Directory Management via OS X Server",
-        "Server virtualization via VMware"
+        "Google Apps Administration"
       ]
     },
     {
@@ -59,9 +66,9 @@
       "endDate": "2012-06-11",
       "summary": "Introduced client management and cloud services",
       "highlights": [
+        "Day to day support of End Users",
         "Wireless infrastructure via Meraki Access points",
-        "Desaster recovery after flood for entire infrastructure",
-        "Open Directory Management via OS X Server"
+        "Software support, image creation and rollout coordination"
       ]
     }
   ],
@@ -81,7 +88,7 @@
       "name": "Client Management",
       "level": "Master",
       "keywords": [
-        "Casper",
+        "JAMF Casper",
         "Munki",
         "MDM",
         "Deploystudio"
@@ -125,6 +132,21 @@
         "Datadog",
         "Jenkins",
         "pagerDuty"
+      ]
+    },
+
+    {
+      "name": "Certifications",
+      "level": "Master",
+      "keywords": [
+        "JAMF CCA",
+        "JAMF CMA",
+        "ACMT",
+        "ACTC",
+        "ACSP",
+        "GSX Admin",
+        "iOS Facilitator",
+        "Certified Mac Integration"
       ]
     }
   ],
