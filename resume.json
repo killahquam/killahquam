@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Quam Sodji",
-    "label": "Corporate IT Systems Administrator",
+    "label": "IT Team Lead",
     "email": "qsodji@gmail.com",
     "phone": "(917) 562-2811",
     "website": "https://jumpt.wordpress.com",
@@ -24,11 +24,48 @@
     ]
   },
   "work": [
+        {
+      "company": "Funding Circle USA",
+      "position": "US IT Team Lead",
+      "website": "https://fundingcircle.com",
+      "startDate": "2016-08-19",
+      "summary": "SME on all US IT related matters",
+      "highlights": [
+        "Disaster Recovery Planing and Deployment for entire US Office",
+        "Global Contributor to IT Projects for London, Berlin, Madrid & Amsterdam Offices",
+        "Architecture of AWS Infrastructure (Private/Public subnet, VPC, Site to Site VPN)",
+        "Removal of Physical Office dependencies (Cloud based VPN, Active/Active fileservers)",
+        "Budgeting, Staff Training planning and scoping (Conferences, IT Roadmap)",
+        "Architecture and Deployment of Audio Visual Conference System for all purposes One touch meetings (Zoom)",
+        "Introduction and administration of Apple Global Service Exchange and Device Enrollment Program",
+        "Architecture of OpenVPN Access Server with routing design including subnet segragation",
+        "Third tier escalation support for all IT matters"
+      ]
+    },
+    {
+      "company": "Funding Circle USA",
+      "position": "Senior Systems Administrator",
+      "website": "https://fundingcircle.com",
+      "startDate": "2016-08-19",
+      "endDate": "2016-08-15",
+      "summary": "Automation and tooling of IT Tasks and processes",
+      "highlights": [
+        "Complete automation of the imaging process using BASH and python on Deploystudio",
+        "Automation of Windows Imaging process and update via MDT and WSUS",
+        "Full Disk Encryption enforcement and management including FileVault recovery key escrow",
+        "Vulnerability and malware detection using signatures and process scanning, remediation",
+        "Software deployment and updating using AutoPkg and Munki",
+        "Cylance anti-virus management and deployment",
+        "Administration of Okta Single Sign-On",
+        "Third tier escalation support for all client matters"
+      ]
+    },
     {
       "company": "GREE International Inc",
       "position": "Corporate IT Systems Administrator",
       "website": "http://corp.gree.net/global",
       "startDate": "2014-08-18",
+      "endDate": "2015-10-01",
       "summary": "Retooling of the client management stack (OS X and Windows) with Casper and PDQ, 350 computers",
       "highlights": [
         "Complete automation of the imaging process using BASH and python on Deploystudio",
@@ -108,7 +145,12 @@
       "keywords": [
         "Meraki",
         "DNS",
-        "VLAN"
+        "DHCP",
+        "802.1x",
+        "RADIUS",
+        "VLAN",
+        "Guest Network Best practices",
+        "Network isolation for Wired and Wi-Fi"
       ]
     },
     {
@@ -128,7 +170,8 @@
         "Python",
         "Bash",
         "Docker",
-        "Puppet",
+        "Chef",
+        "AWS VPC",
         "Datadog",
         "Jenkins",
         "pagerDuty"
