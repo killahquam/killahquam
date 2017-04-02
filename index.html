@@ -1,15 +1,214 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Quam Sodji</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <!-- link rel="shortcut icon" href="favicon.ico" / -->
-    <style>
-      .relative {
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Quam Sodji</title><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/><style>@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?9yug7q');
+  src:  url('fonts/icomoon.eot?9yug7q#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9yug7q') format('truetype'),
+    url('fonts/icomoon.woff?9yug7q') format('woff'),
+    url('fonts/icomoon.svg?9yug7q#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+  content: "\e905";
+}
+.icon-trophy:before {
+  content: "\e605";
+}
+.icon-office:before {
+  content: "\e606";
+}
+.icon-clock:before {
+  content: "\e60a";
+}
+.icon-reddit:before {
+  content: "\e609";
+}
+.icon-telegram:before {
+  content: "\e904";
+}
+.icon-flickr:before {
+  content: "\f16e";
+}
+.icon-medium:before {
+  content: "\f23a";
+}
+.icon-heart:before {
+  content: "\f004";
+}
+.icon-book:before {
+  content: "\f02d";
+}
+.icon-linkedin:before {
+  content: "\f08c";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-github:before {
+  content: "\f09b";
+}
+.icon-link:before {
+  content: "\f0c1";
+}
+.icon-bars:before {
+  content: "\f0c9";
+}
+.icon-pinterest:before {
+  content: "\f0d2";
+}
+.icon-googleplus:before {
+  content: "\f0d5";
+}
+.icon-circle:before {
+  content: "\f111";
+}
+.icon-code:before {
+  content: "\f121";
+}
+.icon-youtube:before {
+  content: "\f167";
+}
+.icon-stackoverflow:before {
+  content: "\f16c";
+}
+.icon-bitbucket:before {
+  content: "\f171";
+}
+.icon-tumblr:before {
+  content: "\f173";
+}
+.icon-dribbble:before {
+  content: "\f17d";
+}
+.icon-skype:before {
+  content: "\f17e";
+}
+.icon-foursquare:before {
+  content: "\f180";
+}
+.icon-gittip:before {
+  content: "\f184";
+}
+.icon-gratipay:before {
+  content: "\f184";
+}
+.icon-stackexchange:before {
+  content: "\f18d";
+}
+.icon-vimeo:before {
+  content: "\f194";
+}
+.icon-graduation-cap:before {
+  content: "\f19d";
+}
+.icon-language:before {
+  content: "\f1ab";
+}
+.icon-child:before {
+  content: "\f1ae";
+}
+.icon-behance:before {
+  content: "\f1b5";
+}
+.icon-spotify:before {
+  content: "\f1bc";
+}
+.icon-soundcloud:before {
+  content: "\f1be";
+}
+.icon-codepen:before {
+  content: "\f1cb";
+}
+.icon-hackernews:before {
+  content: "\f1d4";
+}
+.icon-lastfm:before {
+  content: "\f202";
+}
+.icon-angellist:before {
+  content: "\f209";
+}
+.icon-facebook:before {
+  content: "\f230";
+}
+.icon-meetup .path1:before {
+  content: "\e901";
+  color: rgb(255, 255, 255);
+}
+.icon-meetup .path2:before {
+  content: "\e902";
+  margin-left: -1.5em;
+  color: rgb(240, 1, 1);
+}
+.icon-meetup .path3:before {
+  content: "\e903";
+  margin-left: -1.5em;
+  color: rgb(3, 3, 3);
+}
+.icon-blogger:before {
+  content: "\e900";
+}
+.icon-exercism:before {
+  content: "\e601";
+}
+.icon-profile:before {
+  content: "\e600";
+}
+.icon-tools:before {
+  content: "\e034";
+}
+.icon-location:before {
+  content: "\e602";
+}
+.icon-mail:before {
+  content: "\e603";
+}
+.icon-phone:before {
+  content: "\e03f";
+}
+.icon-newspaper:before {
+  content: "\e607";
+}
+.icon-dots-three-horizontal:before {
+  content: "\e60b";
+}
+.icon-thumbs-up:before {
+  content: "\e604";
+}
+.icon-chevron-down:before {
+  content: "\e60c";
+}
+.icon-chevron-up:before {
+  content: "\e60d";
+}
+.icon-dots-three-horizontal:before {
+  content: "\e60b";
+}
+.icon-thumbs-up:before {
+  content: "\e604";
+}
+.icon-board:before {
+  content: "\e608";
+}
+
+
+.relative {
   position: relative;
 }
 .clear-margin {
@@ -21,14 +220,19 @@
 .space-right {
   margin-right: 10px;
 }
-.icon-left {
+.space-bottom {
+  margin-bottom: 10px;
+}
+.mr-5 {
   margin-right: 5px;
 }
-.icon-right {
+.mr-10 {
+  margin-right: 10px;
+}
+.ml-5 {
   margin-left: 5px;
 }
 .labels {
-  word-spacing: 5px;
   line-height: 2;
 }
 .label-keyword {
@@ -38,6 +242,10 @@
   font-size: 0.9em;
   padding: 5px;
   border: 1px solid #357ebd;
+  margin-right: 5px;
+}
+.label-keyword:last-child {
+  margin-right: 0;
 }
 .link-disguise {
   color: inherit;
@@ -53,24 +261,58 @@
     margin-bottom: 0;
   }
 }
+.fs-lg {
+  font-size: 1.33333333em;
+  line-height: .75em;
+  vertical-align: -15%;
+}
+.fs-2x {
+  font-size: 2em;
+}
+.fs-3x {
+  font-size: 3em;
+}
+.fs-4x {
+  font-size: 4em;
+}
+.btn-circle-sm {
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0;
+  outline: none !important;
+}
+@font-face {
+  font-family: 'jst-elegant';
+  src: url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.eot?f218wo");
+  src: url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.eot?f218wo#iefix") format('embedded-opentype'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.ttf?f218wo") format('truetype'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.woff?f218wo") format('woff'), url("//unpkg.com/jsonresume-theme-elegant@1.10.1/assets/icomoon/fonts/icomoon.svg?f218wo#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'jst-elegant' !important;
+}
 body {
   font-family: 'Lato';
   background: #f0f0f0;
-  color: #333333;
+  color: #333;
 }
 .main {
   padding: 5px;
 }
 .card {
-  background: #ffffff;
+  background: white;
   border: 1px solid #e6e6e6;
   border-radius: 3px;
   min-height: 300px;
-  padding: 10px;
+  padding: 10px 0;
 }
 .card-nested {
   min-height: 0;
-  margin-bottom: 10px;
   border-width: 1px 0 0 0;
 }
 .card-nested:before,
@@ -97,12 +339,8 @@ body {
     float: none !important;
   }
 }
-.text-bolder {
-  font-weight: bold;
-}
 .background-details .detail {
   display: table;
-  padding: 10px 0;
 }
 .background-details .detail .icon {
   min-width: 45px;
@@ -187,6 +425,9 @@ body {
   top: 4px;
   left: -10px;
 }
+.mop-wrapper > p:last-child {
+  margin: 0;
+}
 /*
     Credits: http://codyhouse.co/demo/smart-fixed-navigation/index.html
 */
@@ -201,7 +442,6 @@ body {
   display: block;
   border-radius: 50%;
   text-align: center;
-  padding-top: 10px;
   background-color: white;
   font-size: 1.5em;
   color: #357ebd;
@@ -209,6 +449,12 @@ body {
   position: fixed;
   bottom: 10px;
   right: 10px;
+  text-decoration: none !important;
+}
+.floating-nav-trigger > [class^="icon-"],
+.floating-nav-trigger [class*=" icon-"],
+.floating-nav-trigger > .close-icon {
+  line-height: 50px;
 }
 .floating-nav-trigger .close-icon {
   display: none;
@@ -216,7 +462,6 @@ body {
 .floating-nav-trigger:hover {
   color: #1f496e;
   background-color: #e6e6e6;
-  text-decoration: none;
 }
 .floating-nav-trigger.is-open {
   -webkit-box-shadow: none;
@@ -225,7 +470,7 @@ body {
 .floating-nav-trigger.is-open .close-icon {
   display: inherit;
 }
-.floating-nav-trigger.is-open .fa-bars {
+.floating-nav-trigger.is-open .icon-bars {
   display: none;
 }
 .floating-nav-trigger.is-open:hover {
@@ -271,9 +516,6 @@ body {
 .floating-nav ul li a:hover {
   color: #1f496e;
 }
-.floating-nav ul li i.fa {
-  margin-right: 10px;
-}
 .floating-nav ul li:last-child {
   border-bottom: 0;
 }
@@ -291,6 +533,9 @@ body {
   .profile-card-wrapper {
     position: relative;
   }
+}
+.profile-card-wrapper .profile-card {
+  padding: 10px;
 }
 .profile-pic {
   padding: 20px 0;
@@ -411,7 +656,7 @@ body {
   color: #005983;
 }
 .link-skype {
-  color: #12a5f4;
+  color: #12A5F4;
 }
 .link-skype:hover,
 .link-skype:focus {
@@ -419,12 +664,12 @@ body {
   color: #0986ca;
 }
 .link-instagram {
-  color: #3f729b;
+  color: #e4405f;
 }
 .link-instagram:hover,
 .link-instagram:focus {
   text-decoration: none;
-  color: #305777;
+  color: #d31e40;
 }
 .link-stackoverflow {
   color: #8e8e92;
@@ -483,7 +728,7 @@ body {
   color: #8c0717;
 }
 .link-gratipay {
-  color: #663300;
+  color: #630;
 }
 .link-gratipay:hover,
 .link-gratipay:focus {
@@ -563,7 +808,7 @@ body {
   color: #3b5687;
 }
 .link-angellist {
-  color: #000000;
+  color: black;
 }
 .link-angellist:hover,
 .link-angellist:focus {
@@ -577,6 +822,54 @@ body {
 .link-bitbucket:focus {
   text-decoration: none;
   color: #163758;
+}
+.link-hackernews {
+  color: #ff6600;
+}
+.link-hackernews:hover,
+.link-hackernews:focus {
+  text-decoration: none;
+  color: #cc5200;
+}
+.link-exercism {
+  color: #d81d4e;
+}
+.link-exercism:hover,
+.link-exercism:focus {
+  text-decoration: none;
+  color: #ab173e;
+}
+.link-blogger {
+  color: #FF9234;
+}
+.link-blogger:hover,
+.link-blogger:focus {
+  text-decoration: none;
+  color: #ff7701;
+}
+.link-medium {
+  color: #00AB6C;
+}
+.link-medium:hover,
+.link-medium:focus {
+  text-decoration: none;
+  color: #00784c;
+}
+.link-flickr {
+  color: black;
+}
+.link-flickr:hover,
+.link-flickr:focus {
+  text-decoration: none;
+  color: #000000;
+}
+.link-telegram {
+  color: #3BABDD;
+}
+.link-telegram:hover,
+.link-telegram:focus {
+  text-decoration: none;
+  color: #2291c3;
 }
 .card-skills {
   position: relative;
@@ -614,7 +907,7 @@ body {
   background: #5cb85c;
 }
 .skill-info {
-  margin-left: 10px;
+  margin-left: 15px;
 }
 @media (max-width: 480px) {
   .skill-info {
@@ -625,6 +918,9 @@ body {
   .quote {
     font-size: inherit;
   }
+}
+.icon-meetup .path2:before {
+  margin-left: 0;
 }
 @media print {
   a[href]:after {
@@ -662,418 +958,81 @@ body {
     page-break-before: always;
   }
 }
+</style></head><body itemscope="itemscope" itemtype="http://schema.org/Person"><div class="container-fluid"><div class="row main clearfix"><a class="js-floating-nav-trigger floating-nav-trigger" href="#"><i class="icon-bars"></i><span class="close-icon">&times;</span></a><nav class="floating-nav js-floating-nav"><ul class="list-unstyled"><li><a href="#work-experience"><i class="mr-10 icon-office"></i>Work Experience</a></li><li><a href="#skills"><i class="mr-10 icon-tools"></i>Skills</a></li><li><a href="#education"><i class="mr-10 icon-graduation-cap"></i>Education</a></li></ul></nav><section class="col-md-3 card-wrapper profile-card-wrapper affix"><div class="card profile-card"><span class="profile-pic-container"><div class="profile-pic"><img class="media-object img-circle center-block" data-src="holder.js/100x100" alt="Quam Sodji" src="https://s.gravatar.com/avatar/7ed87c0a3676fe5d7f06f10802425757?s=100&amp;r=pg&amp;d=mm" itemprop="image"/></div><div class="name-and-profession text-center"><h3 itemprop="name"><b>Quam Sodji</b></h3><h5 class="text-muted" itemprop="jobTitle">IT Team Lead</h5></div></span><hr/><div class="contact-details clearfix"><div class="detail"><span class="icon"><i class="icon fs-lg icon-location"></i></span><span class="info">San Francisco, CA</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-phone"></i></span><span class="info" itemprop="telephone">(917) 562-2811</span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-mail"></i></span><span class="info"><a class="link-disguise" href="mailto:qsodji@gmail.com" itemprop="email">qsodji@gmail.com</a></span></div><div class="detail"><span class="icon"><i class="icon fs-lg icon-link"></i></span><span class="info"><a href="https://jumpt.wordpress.com" target="_blank">https://jumpt.wordpress.com</a></span></div><div class="detail"><span class="icon" title="Languages I speak"><i class="icon fs-lg icon-language"></i></span><span class="info">English, French</span></div></div><hr/><div class="social-links text-center"><div><a class="fs-2x social-link link-linkedin icon-linkedin" href="https://linkedin.com/in/quamsodji" target="_blank" data-toggle="tooltip" title="Quam Sodji on Linkedin"></a><a class="fs-2x social-link link-github icon-github" href="https://github.com/killahquam" target="_blank" data-toggle="tooltip" title="Quam Sodji on Github"></a></div></div></div></section><section class="col-md-9 card-wrapper pull-right"><div class="card background-card"><h4 class="text-uppercase">Background</h4><hr/><div class="background-details"><div class="detail" id="work-experience"><div class="icon"><i class="fs-lg icon-office"></i><span class="mobile-title">Work Experience</span></div><div class="info"><h4 class="title text-uppercase">Work Experience</h4><ul class="list-unstyled clear-margin"><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><i class="icon-circle current-event" rel="tooltip" title="Currently Working" data-placement="left"></i><strong>US IT Team Lead</strong>,&nbsp;<a href="https://fundingcircle.com" target="_blank">Funding Circle USA</a></p><p class="text-muted"><small><span class="space-right">Aug, 2016 - Present</span></small></p><div class="mop-wrapper space-bottom"><p>SME on all US IT related matters</p>
+</div><ul><li class="mop-wrapper"><p>Disaster Recovery Planning and Deployment for entire US Office</p>
+</li><li class="mop-wrapper"><p>Global Contributor to IT Projects for London, Berlin, Madrid &amp; Amsterdam Offices</p>
+</li><li class="mop-wrapper"><p>Architecture of AWS Infrastructure (Private/Public subnet, VPC, Site to Site VPN)</p>
+</li><li class="mop-wrapper"><p>Removal of Physical Office dependencies (Cloud based VPN, Active/Active fileservers)</p>
+</li><li class="mop-wrapper"><p>Budgeting, Staff Training planning and scoping (Conferences, IT Roadmap)</p>
+</li><li class="mop-wrapper"><p>Architecture and Deployment of Audio Visual Conference System for all purposes One touch meetings (Zoom)</p>
+</li><li class="mop-wrapper"><p>Introduction and administration of Apple Global Service Exchange and Device Enrollment Program</p>
+</li><li class="mop-wrapper"><p>Architecture of OpenVPN Access Server with routing design including subnet segragation</p>
+</li><li class="mop-wrapper"><p>Third tier escalation support for all IT matters</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Senior Systems Administrator</strong>,&nbsp;<a href="https://fundingcircle.com" target="_blank">Funding Circle USA</a></p><p class="text-muted"><small><span class="space-right">Aug, 2016 - Aug, 2016</span><span><i class="icon-clock mr-5"></i>3 days</span></small></p><div class="mop-wrapper space-bottom"><p>Automation and tooling of IT Tasks and processes</p>
+</div><ul><li class="mop-wrapper"><p>Complete automation of the imaging process using BASH and python on Deploystudio</p>
+</li><li class="mop-wrapper"><p>Automation of Windows Imaging process and update via MDT and WSUS</p>
+</li><li class="mop-wrapper"><p>Full Disk Encryption enforcement and management including FileVault recovery key escrow</p>
+</li><li class="mop-wrapper"><p>Vulnerability and malware detection using signatures and process scanning, remediation</p>
+</li><li class="mop-wrapper"><p>Software deployment and updating using AutoPkg and Munki</p>
+</li><li class="mop-wrapper"><p>Cylance anti-virus management and deployment</p>
+</li><li class="mop-wrapper"><p>Administration of Okta Single Sign-On</p>
+</li><li class="mop-wrapper"><p>Third tier escalation support for all client matters</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Corporate IT Systems Administrator</strong>,&nbsp;<a href="http://corp.gree.net/global" target="_blank">GREE International Inc</a></p><p class="text-muted"><small><span class="space-right">Aug, 2014 - Oct, 2015</span><span><i class="icon-clock mr-5"></i>1 year 1 month</span></small></p><div class="mop-wrapper space-bottom"><p>Retooling of the client management stack (OS X and Windows) with Casper and PDQ, 350 computers</p>
+</div><ul><li class="mop-wrapper"><p>Complete automation of the imaging process using BASH and python on Deploystudio</p>
+</li><li class="mop-wrapper"><p>Full Disk Encryption enforcement and management including FileVault recovery key escrow</p>
+</li><li class="mop-wrapper"><p>OS lifecycle management including automated version upgrade and weekly updates enforcement</p>
+</li><li class="mop-wrapper"><p>Vulnerability and malware detection using signatures and process scanning, remediation</p>
+</li><li class="mop-wrapper"><p>Software deployment and updating using AutoPkg and Casper</p>
+</li><li class="mop-wrapper"><p>Sophos anti-virus management and deployment</p>
+</li><li class="mop-wrapper"><p>Introduction and administration of Apple Global Service Exchange and Device Enrollment Program</p>
+</li><li class="mop-wrapper"><p>Administration of Duo Multi Factor Authentication, Okta Single Sign-On</p>
+</li><li class="mop-wrapper"><p>Third tier escalation support for all client matters</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Systems Engineer</strong>,&nbsp;<a href="https://avenues.org" target="_blank">Avenues: The World School</a></p><p class="text-muted"><small><span class="space-right">Jun, 2012 - Jul, 2014</span><span><i class="icon-clock mr-5"></i>2 years</span></small></p><div class="mop-wrapper space-bottom"><p>Lead the design and construction of the infrastructure for multiple campuses</p>
+</div><ul><li class="mop-wrapper"><p>Level 3 Support for End Users</p>
+</li><li class="mop-wrapper"><p>Management of IT personnel (repairs, AV, helpdesk)</p>
+</li><li class="mop-wrapper"><p>Deployment of wireless infrastructure for 10 floors with different VLANS</p>
+</li><li class="mop-wrapper"><p>Mac clients and Server Management (1000+ computers)</p>
+</li><li class="mop-wrapper"><p>Open Directory Management via OS X Server</p>
+</li><li class="mop-wrapper"><p>Google Apps Administration</p>
+</li></ul></div></li><li class="card card-nested clearfix"><div class="content"><p class="clear-margin relative"><strong>Systems Engineer</strong>,&nbsp;<a href="https://greenwichacademy.org" target="_blank">Greenwich Academy</a></p><p class="text-muted"><small><span class="space-right">Jun, 2007 - Jun, 2012</span><span><i class="icon-clock mr-5"></i>5 years</span></small></p><div class="mop-wrapper space-bottom"><p>Introduced client management and cloud services</p>
+</div><ul><li class="mop-wrapper"><p>Day to day support of End Users</p>
+</li><li class="mop-wrapper"><p>Wireless infrastructure via Meraki Access points</p>
+</li><li class="mop-wrapper"><p>Software support, image creation and rollout coordination</p>
+</li></ul></div></li></ul></div></div><div class="detail" id="skills"><div class="icon"><i class="fs-lg icon-tools"></i><span class="mobile-title">Skills</span></div><div class="info"><h4 class="title text-uppercase">Skills</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Master" data-placement="left"><div class="skill-progress master"></div></div><div class="skill-info"><strong>Client Management</strong><div class="space-top labels"><span class="label label-keyword">JAMF Casper</span><span class="label label-keyword">Munki</span><span class="label label-keyword">MDM</span><span class="label label-keyword">Deploystudio</span></div></div></li><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Master" data-placement="left"><div class="skill-progress master"></div></div><div class="skill-info"><strong>Security</strong><div class="space-top labels"><span class="label label-keyword">Nessus</span><span class="label label-keyword">osquery</span></div></div></li><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Master" data-placement="left"><div class="skill-progress master"></div></div><div class="skill-info"><strong>Networking</strong><div class="space-top labels"><span class="label label-keyword">Meraki</span><span class="label label-keyword">DNS</span><span class="label label-keyword">DHCP</span><span class="label label-keyword">802.1x</span><span class="label label-keyword">RADIUS</span><span class="label label-keyword">VLAN</span><span class="label label-keyword">Guest Network Best practices</span><span class="label label-keyword">Network isolation for Wired and Wi-Fi</span></div></div></li><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Intermediate" data-placement="left"><div class="skill-progress intermediate"></div></div><div class="skill-info"><strong>Data Center</strong><div class="space-top labels"><span class="label label-keyword">VMware</span><span class="label label-keyword">Nimble</span><span class="label label-keyword">Synology</span></div></div></li><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Intermediate" data-placement="left"><div class="skill-progress intermediate"></div></div><div class="skill-info"><strong>DevOps</strong><div class="space-top labels"><span class="label label-keyword">Python</span><span class="label label-keyword">Bash</span><span class="label label-keyword">Docker</span><span class="label label-keyword">Chef</span><span class="label label-keyword">AWS VPC</span><span class="label label-keyword">Datadog</span><span class="label label-keyword">Jenkins</span><span class="label label-keyword">pagerDuty</span></div></div></li><li class="card card-nested card-skills"><div class="skill-level" data-toggle="tooltip" title="Master" data-placement="left"><div class="skill-progress master"></div></div><div class="skill-info"><strong>Certifications</strong><div class="space-top labels"><span class="label label-keyword">JAMF CCA</span><span class="label label-keyword">JAMF CMA</span><span class="label label-keyword">ACMT</span><span class="label label-keyword">ACTC</span><span class="label label-keyword">ACSP</span><span class="label label-keyword">GSX Admin</span><span class="label label-keyword">iOS Facilitator</span><span class="label label-keyword">Certified Mac Integration</span></div></div></li></ul></div></div></div><div class="detail" id="education"><div class="icon"><i class="fs-lg icon-graduation-cap"></i><span class="mobile-title">Education</span></div><div class="info"><h4 class="title text-uppercase">Education</h4><div class="content"><ul class="list-unstyled clear-margin"><li class="card card-nested"><div class="content"><p class="clear-margin relative"><strong>Information Technology, Master,&nbsp;</strong>Pace University</p><p class="text-muted"><small>Sep, 2006 - May, 2008</small></p><i>3.92</i></div></li></ul></div></div></div></div></div></section></div></div><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script><script>$(function () {
+  var toggleFloatingMenu = function() {
+    $( '.js-floating-nav' ).toggleClass( 'is-visible' );
+    $( '.js-floating-nav-trigger' ).toggleClass( 'is-open' );
+  };
 
-    </style>
-  </head>
+  $( ".background-card" ).css( "min-height", window.screen.availHeight + "px" );
+  $( "[data-toggle=tooltip]" ).tooltip();
+  $( '.js-floating-nav-trigger' ).on( 'click', function(e) {
+    e.preventDefault();
+    toggleFloatingMenu();
+  });
+  $( '.js-floating-nav a' ).on( 'click', toggleFloatingMenu );
 
-  <body itemscope itemtype="http://schema.org/Person">
-    <script>
-      window.onload = function () {
-        var toggleFloatingMenu = function() {
-          $( '.js-floating-nav' ).toggleClass( 'is-visible' );
-          $( '.js-floating-nav-trigger' ).toggleClass( 'is-open' );
-        };
+  $("#remaining-profiles").on('show.bs.collapse', function() {
+    $( '.js-profiles-collapse > i' )
+      .removeClass( 'icon-chevron-down' )
+      .addClass( 'icon-chevron-up' );
+  });
 
-        $( ".background-card" ).css( "min-height", window.screen.availHeight + "px" );
-        $( "[rel=tooltip]" ).tooltip();
-        $( '.js-floating-nav-trigger' ).on( 'click', function(e) {
-          e.preventDefault();
-          toggleFloatingMenu();
-        });
-        $( '.js-floating-nav a' ).on( 'click', toggleFloatingMenu );
-      }
-    </script>
-    <div class="container-fluid">
-      <div class="row main clearfix">
-        <a href="#" class="js-floating-nav-trigger floating-nav-trigger">
-          <i class="fa fa-bars"></i>
-          <span class="close-icon">&times;</span>
-        </a>
-        <nav class="floating-nav js-floating-nav">
-          <ul class="list-unstyled">
-            <li>
-              <a href="#work-experience">
-                <i class="fa fa-building"></i>
-                Work Experience
-              </a>
-            </li>
-            <li>
-              <a href="#skills">
-                <i class="fa fa-code"></i>
-                Skills
-              </a>
-            </li>
-            <li>
-              <a href="#education">
-                <i class="fa fa-mortar-board"></i>
-                Education
-              </a>
-            </li>
-          </ul>
-        </nav>
-
-        <section class="col-md-3 card-wrapper profile-card-wrapper affix">
-          <div class="card profile-card">
-              <span class="profile-pic-container">
-                <div class="profile-pic">
-                  <img class="media-object img-circle center-block"  data-src="holder.js/100x100"
-                    alt="Quam Sodji" src="//www.gravatar.com/avatar/7ed87c0a3676fe5d7f06f10802425757?s=100&amp;r=pg&amp;d=mm" itemprop="image">
-                </div>
-
-                <div class="name-and-profession">
-                  <h3 class="text-center text-bolder name" itemprop="name"> Quam Sodji</h3>
-                  <h5 class="text-muted text-center" itemprop="jobTitle">Corporate IT Systems Administrator</h5>
-                </div>
-              </span>
-              <hr>
-
-              <div class="contact-details clearfix">
-
-                  <div class="detail">
-                    <span class="icon">
-                      <i class="fa fa-lg fa-location-arrow"></i>
-                    </span>
-                    <span class="info">
-                      San Francisco, CA
-                    </span>
-                  </div>
-
-                  <div class="detail">
-                    <span class="icon">
-                      <i class="fa fa-lg fa-phone"></i>
-                    </span>
-
-                    <span class="info" itemprop="telephone">
-                      (917) 562-2811
-                    </span>
-                  </div>
-
-                  <div class="detail">
-                    <span class="icon">
-                      <i class="fa fa-lg fa-envelope"></i>
-                    </span>
-
-                    <span class="info">
-                      <a href="/cdn-cgi/l/email-protection#0f7e7c606b65664f68626e6663216c6062" class="link-disguise" itemprop="email"><span class="__cf_email__" data-cfemail="1d6c6e727977745d7a707c7471337e7270">[email&#160;protected]</span><script cf-hash='f9e31' type="text/javascript">
-/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></a>
-                    </span>
-                  </div>
-
-                  <div class="detail">
-                    <span class="icon">
-                      <i class="fa fa-lg fa-link"></i>
-                    </span>
-
-                    <span class="info">
-                      <a href="https://jumpt.wordpress.com" target="_blank">https://jumpt.wordpress.com</a>
-                    </span>
-                  </div>
-
-                  <div class="detail">
-                    <span class="icon" title="Languages I speak">
-                      <i class="fa fa-lg fa-language"></i>
-                    </span>
-
-                    <span class="info">
-                      English, French
-                    </span>
-                  </div>
-              </div>
-
-              <hr>
-
-              <div class="social-links text-center">
-                  <a class="fa fa-linkedin fa-2x social-link link-linkedin"
-                       href="https://linkedin.com/in/quamsodji" target="_blank"></a>
-                  <a class="fa fa-github fa-2x social-link link-github"
-                       href="https://github.com/killahquam" target="_blank"></a>
-              </div>
-          </div>
-        </section>
-
-        <section class="col-md-9 card-wrapper pull-right">
-          <div class="card background-card">
-            <h4 class="text-uppercase text-bolder">Background</h4>
-            <hr>
-
-            <div class="background-details">
-
-              <div class="detail" id="work-experience">
-                <div class="icon">
-                  <i class="fa fa-lg fa-building"></i>
-                  <span class="mobile-title">Work Experience</span>
-                </div>
-                <div class="info">
-                  <h4 class="title text-uppercase">
-                    Work Experience
-                  </h4>
-
-                  <ul class="list-unstyled">
-                      <li class="card card-nested clearfix">
-                        <div class="content">
-                          <p class="clear-margin relative">
-                              <i class="fa fa-circle current-event"
-                                 rel="tooltip" title="Currently Working" data-placement="left"></i>
-                            <strong>Corporate IT Systems Administrator</strong>,&nbsp;
-                              <a href="http://corp.gree.net/global"  target="_blank">GREE International Inc</a>
-                          </p>
-                          <p class="text-muted">
-                            <small>
-                              <span class="space-right">
-                                Aug, 2014 -
-                                  Present
-                              </span>
-
-                                <span>
-                                  <i class="fa fa-clock-o icon-left"></i>
-                                  1 year
-                                </span>
-                            </small>
-                          </p>
-                          <p>Retooling of the client management stack (OS X and Windows) with Casper and PDQ, 350 computers</p>
-                            <ul>
-                                <li> Complete automation of the imaging process using BASH and python on Deploystudio </li>
-                                <li> Full Disk Encryption enforcement and management including FileVault recovery key escrow </li>
-                                <li> OS lifecycle management including automated version upgrade and weekly updates enforcement </li>
-                                <li> Vulnerability and malware detection using signatures and process scanning, remediation </li>
-                                <li> Software deployment and updating using AutoPkg and Casper </li>
-                                <li> Sophos anti-virus management and deployment </li>
-                                <li> Introduction and administration of Apple Global Service Exchange and Device Enrollment Program </li>
-                                <li> Administration of Duo Multi Factor Authentication, Okta Single Sign-On </li>
-                                <li> Third tier escalation support for all client matters </li>
-                            </ul>
-                        </div>
-                      </li>
-                      <li class="card card-nested clearfix">
-                        <div class="content">
-                          <p class="clear-margin relative">
-                            <strong>Systems Engineer</strong>,&nbsp;
-                              <a href="https://avenues.org"  target="_blank">Avenues: The World School</a>
-                          </p>
-                          <p class="text-muted">
-                            <small>
-                              <span class="space-right">
-                                Jun, 2012 -
-                                  Jul, 2014
-                              </span>
-
-                                <span>
-                                  <i class="fa fa-clock-o icon-left"></i>
-                                  2 years
-                                </span>
-                            </small>
-                          </p>
-                          <p>Lead the design and construction of the infrastructure for multiple campuses</p>
-                            <ul>
-                                <li> Level 3 Support for End Users </li>
-                                <li> Management of IT personnel (repairs, AV, helpdesk) </li>
-                                <li> Deployment of wireless infrastructure for 10 floors with different VLANS </li>
-                                <li> Mac clients and Server Management (1000+ computers) </li>
-                                <li> Open Directory Management via OS X Server </li>
-                                <li> Google Apps Administration </li>
-                            </ul>
-                        </div>
-                      </li>
-                      <li class="card card-nested clearfix">
-                        <div class="content">
-                          <p class="clear-margin relative">
-                            <strong>Systems Engineer</strong>,&nbsp;
-                              <a href="https://greenwichacademy.org"  target="_blank">Greenwich Academy</a>
-                          </p>
-                          <p class="text-muted">
-                            <small>
-                              <span class="space-right">
-                                Jun, 2007 -
-                                  Jun, 2012
-                              </span>
-
-                                <span>
-                                  <i class="fa fa-clock-o icon-left"></i>
-                                  5 years
-                                </span>
-                            </small>
-                          </p>
-                          <p>Introduced client management and cloud services</p>
-                            <ul>
-                                <li> Day to day support of End Users </li>
-                                <li> Wireless infrastructure via Meraki Access points </li>
-                                <li> Software support, image creation and rollout coordination </li>
-                            </ul>
-                        </div>
-                      </li>
-                  </ul>
-                </div>
-              </div>
-
-                <div class="detail" id="skills">
-                  <div class="icon">
-                    <i class="fa fa-lg fa-code"></i>
-                    <span class="mobile-title">Skills</span>
-                  </div>
-                  <div class="info">
-                    <h4 class="title text-uppercase">
-                      Skills
-                    </h4>
-
-                    <div class="content">
-                      <ul class="list-unstyled">
-                          <li class="card card-nested card-skills">
-                              <div class="skill-level" rel="tooltip" title="Master" data-placement="left">
-                                <div class="skill-progress master">
-                                </div>
-                              </div>
-                            <div class="skill-info">
-                              <strong>Client Management</strong>
-
-                              <div class="space-top labels">
-                                  <span class="label label-keyword">JAMF Casper</span>
-                                  <span class="label label-keyword">Munki</span>
-                                  <span class="label label-keyword">MDM</span>
-                                  <span class="label label-keyword">Deploystudio</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="card card-nested card-skills">
-                              <div class="skill-level" rel="tooltip" title="Master" data-placement="left">
-                                <div class="skill-progress master">
-                                </div>
-                              </div>
-                            <div class="skill-info">
-                              <strong>Security</strong>
-
-                              <div class="space-top labels">
-                                  <span class="label label-keyword">Nessus</span>
-                                  <span class="label label-keyword">osquery</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="card card-nested card-skills">
-                              <div class="skill-level" rel="tooltip" title="Master" data-placement="left">
-                                <div class="skill-progress master">
-                                </div>
-                              </div>
-                            <div class="skill-info">
-                              <strong>Networking</strong>
-
-                              <div class="space-top labels">
-                                  <span class="label label-keyword">Meraki</span>
-                                  <span class="label label-keyword">DNS</span>
-                                  <span class="label label-keyword">VLAN</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="card card-nested card-skills">
-                              <div class="skill-level" rel="tooltip" title="Master" data-placement="left">
-                                <div class="skill-progress master">
-                                </div>
-                              </div>
-                            <div class="skill-info">
-                              <strong>Certifications</strong>
-
-                              <div class="space-top labels">
-                                  <span class="label label-keyword">JAMF CCA</span>
-                                  <span class="label label-keyword">JAMF CMA</span>
-                                  <span class="label label-keyword">ACMT</span>
-                                  <span class="label label-keyword">ACTC</span>
-                                  <span class="label label-keyword">ACSP</span>
-                                  <span class="label label-keyword">GSX Admin</span>
-                                  <span class="label label-keyword">iOS Facilitator</span>
-                                  <span class="label label-keyword">Certified Mac Integration</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="card card-nested card-skills">
-                              <div class="skill-level" rel="tooltip" title="Intermediate" data-placement="left">
-                                <div class="skill-progress intermediate">
-                                </div>
-                              </div>
-                            <div class="skill-info">
-                              <strong>Data Center</strong>
-
-                              <div class="space-top labels">
-                                  <span class="label label-keyword">VMware</span>
-                                  <span class="label label-keyword">Nimble</span>
-                                  <span class="label label-keyword">Synology</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="card card-nested card-skills">
-                              <div class="skill-level" rel="tooltip" title="Intermediate" data-placement="left">
-                                <div class="skill-progress intermediate">
-                                </div>
-                              </div>
-                            <div class="skill-info">
-                              <strong>DevOps</strong>
-
-                              <div class="space-top labels">
-                                  <span class="label label-keyword">Python</span>
-                                  <span class="label label-keyword">Bash</span>
-                                  <span class="label label-keyword">Docker</span>
-                                  <span class="label label-keyword">Puppet</span>
-                                  <span class="label label-keyword">Datadog</span>
-                                  <span class="label label-keyword">Jenkins</span>
-                                  <span class="label label-keyword">pagerDuty</span>
-                              </div>
-                            </div>
-                          </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-              <div class="detail" id="education">
-                <div class="icon">
-                  <i class="fa fa-lg fa-mortar-board"></i>
-                  <span class="mobile-title">Education</span>
-                </div>
-                <div class="info">
-                  <h4 class="title text-uppercase">
-                    Education
-                  </h4>
-
-                  <div class="content">
-                    <ul class="list-unstyled">
-                        <li class="card card-nested">
-                          <div class="content">
-                            <p class="clear-margin relative">
-
-                              <strong>Information Technology, Master</strong>,&nbsp;
-                              Pace University
-                            </p>
-                            <p class="text-muted">
-                              <small>
-                                Sep, 2006 -
-                                  May, 2008
-                              </small>
-                            </p>
-                            <i>3.92</i>
-                            <div class="space-top labels">
-                            </div>
-                          </div>
-                        </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-
-
-
-
-
-            </div>
-          </div>
-        </section>
-      </div>
-    </div>
-
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/tooltip.js"></script>
-  <script type="text/javascript">
-/* <![CDATA[ */
-(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
-/* ]]> */
-</script>
-</body>
-</html>
+  $("#remaining-profiles").on('hidden.bs.collapse', function() {
+    $( '.js-profiles-collapse > i' )
+      .removeClass( 'icon-chevron-up' )
+      .addClass( 'icon-chevron-down' );
+  });
+});
+</script><script>WebFontConfig = {
+  google: { families: [ 'Lato:300,400,700:latin' ] }
+};
+(function() {
+  var wf = document.createElement('script');
+  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+    '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+  wf.type = 'text/javascript';
+  wf.async = 'true';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(wf, s);
+})();</script></body></html>
